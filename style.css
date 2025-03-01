@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    font-family: "DM Sans", serif;
+    background-color: hsl(202, 86%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 65% !important;
+}
+.lime-color{
+   background-color: hsl(61, 70%, 52%);
+}
+.bg-ultramarine{
+    background-color: hsl(202, 86%, 94%);
+}
+.bg-dark-blue{
+    background-color: hsl(202, 55%, 16%);
+}
+.input-group span{
+    border-color: #aaa;
+}
+.form-control{
+    border-color: #aaa !important;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: inherit;
+    
+}
+#amount{
+    border-left: none !important;
+}
+.amount span{
+    border-right: none;
+}
+.detail input{
+    border-right: none !important;
+}
+.detail span{
+    border-left: none;
+}
+.form-check:hover{
+    transform: scale(1.01, 1.01);
+}
+.form-check-input{
+    cursor: pointer;
+}
+.form-check-input:checked{
+    background-color: goldenrod;
+    border-color: goldenrod;
+    box-shadow: none;
+
+}
+.form-check-input:checked ~ .form-check-label{
+    background-color: #ebcd81;
+    border-color: goldenrod !important;
+}
+.form-check-label input:checked + span {
+    display: flex;
+    background-color: #ebcd81;
+    border-color: goldenrod !important;
+}
+.btn-cal{
+    border: none;
+}
+#section-2{
+    border-bottom-left-radius: 70px !important;
+}
+p{
+    color: hsl(203, 41%, 72%);
+}
+#monthly-repay{
+    color: hsl(61, 70%, 52%);
+    font-weight: bold;
+    font-size: 3rem;
+}
+#total-repay{
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
